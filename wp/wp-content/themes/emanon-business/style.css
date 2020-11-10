@@ -15,6 +15,17 @@ Emanon Business用のスタイルを以下に記述
 カスタマイズ機能のCSS圧縮をオンにしている場合、オフに切り替えてからスタイルを追加し、その後、再度CSS圧縮をオンにしてください。
 */
 
+/* costom css */
+body {
+	line-height: 1.7;
+}
+
+.solution-box-list {
+	display: none;
+}
+
+/* coustom css ENd */
+
 .inner {
 	padding: 0 8px;
 }
@@ -263,11 +274,11 @@ Emanon Business用のスタイルを以下に記述
 }
 
 #sales-section-video {
- width: 100%;
+	width: 100%;
 }
 
 .sales-section-video-wrap {
-  position: relative;
+	position: relative;
 }
 
 .sales-section-video-btn {
@@ -1012,293 +1023,293 @@ Emanon Business用のスタイルを以下に記述
 }
 
 @media screen and ( min-width: 768px ) {
-.inner {
-	padding: 0;
-}
+	.inner {
+		padding: 0;
+	}
 
-/* Newsticker section */
-.ticker-label a {
-	padding: 4px 24px;
-}
+	/* Newsticker section */
+	.ticker-label a {
+		padding: 4px 24px;
+	}
 
-.ticker-label {
-	margin-right: 16px;
-}
+	.ticker-label {
+		margin-right: 16px;
+	}
 
-.ticker-date {
-	display: inline-block;
-}
+	.ticker-date {
+		display: inline-block;
+	}
 
-/* Solution section */
-.solution-box-list {
-	float: left;
-	width: 31.4%;
-	margin: 0 2.6% 0 0;
-}
+	/* Solution section */
+	.solution-box-list {
+		float: left;
+		width: 31.4%;
+		margin: 0 2.6% 0 0;
+	}
 
-/* Sales section */
-.sales-section-col {
-	float: left;
-	margin-left: 2.8%;
-	width: 48.6%;
-}
+	/* Sales section */
+	.sales-section-col {
+		float: left;
+		margin-left: 2.8%;
+		width: 48.6%;
+	}
 
-.sales-section-col:first-child {
-	margin-left: 0;
-}
+	.sales-section-col:first-child {
+		margin-left: 0;
+	}
 
-.sales-section-box {
-	padding: 0;
-}
+	.sales-section-box {
+		padding: 0;
+	}
 
-.sales-section-btn {
-	width: 80%;
-}
+	.sales-section-btn {
+		width: 80%;
+	}
 
-/* Case section */
-.eb-case-section {
-	padding: 86px 0 54px 0;
-}
+	/* Case section */
+	.eb-case-section {
+		padding: 86px 0 54px 0;
+	}
 
-.case-section-btn {
-	width: 40%;
-}
+	.case-section-btn {
+		width: 40%;
+	}
 
-/* Price section */
-.eb-price-section table td {
-	display: table-cell;
-}
+	/* Price section */
+	.eb-price-section table td {
+		display: table-cell;
+	}
 
-.price-section-btn {
-	width: 40%;
-}
+	.price-section-btn {
+		width: 40%;
+	}
 
-/* Product section */
-.product-section {
-	padding: 64px 0;
-}
+	/* Product section */
+	.product-section {
+		padding: 64px 0;
+	}
 
-.product-section-btn {
-	width: 50%;
-}
+	.product-section-btn {
+		width: 50%;
+	}
 
-/* Info section */
-.info-container {
-	width: 752px;
-}
+	/* Info section */
+	.info-container {
+		width: 752px;
+	}
 
-.info-header {
-	margin: 0 0 48px 0;
-}
+	.info-header {
+		margin: 0 0 48px 0;
+	}
 
-.info-header p {
-	margin: 16px 0 32px 0;
-}
+	.info-header p {
+		margin: 16px 0 32px 0;
+	}
 
-.info-meta {
-	display: inline;
-	position: absolute;
-	top: 50%;
-	left: 0;
-	padding: 0 0 0 8px;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
+	.info-meta {
+		display: inline;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		padding: 0 0 0 8px;
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
 
-.info-container h3 {
-	display: inline;
-}
+	.info-container h3 {
+		display: inline;
+	}
 
-.info-container h3 a {
-	display: block;
-	padding: 16px 8px 16px 120px;
-}
+	.info-container h3 a {
+		display: block;
+		padding: 16px 8px 16px 120px;
+	}
 
-.info-section-btn {
-	width: 40%;
-}
+	.info-section-btn {
+		width: 40%;
+	}
 
-/* Accordion faq section */
-.accordion-faq-container {
-	width: 752px;
-}
+	/* Accordion faq section */
+	.accordion-faq-container {
+		width: 752px;
+	}
 
-.faq-section-btn {
-	width: 40%;
-}
+	.faq-section-btn {
+		width: 40%;
+	}
 
-/* Front CTA section */
-.eb-front-cta-section {
-	padding: 72px 0;
-}
+	/* Front CTA section */
+	.eb-front-cta-section {
+		padding: 72px 0;
+	}
 
-.front-cta-col6 {
-	position: relative;
-	width: 100%;
-	margin-left: 0;
-}
+	.front-cta-col6 {
+		position: relative;
+		width: 100%;
+		margin-left: 0;
+	}
 
-.front-cta-header {
-	margin: 0 0 16px 0;
-}
+	.front-cta-header {
+		margin: 0 0 16px 0;
+	}
 
-.front-cta-header h2, .front-cta-header .fa {
-	font-size: 24px;
-	font-size: 2.4rem;
-}
+	.front-cta-header h2, .front-cta-header .fa {
+		font-size: 24px;
+		font-size: 2.4rem;
+	}
 
-.front-cta-single {
-	width: 100%;
-	margin: 0 auto;
-}
+	.front-cta-single {
+		width: 100%;
+		margin: 0 auto;
+	}
 
-.front-cta-header-single {
-	margin: 0 0 16px 0;
-}
+	.front-cta-header-single {
+		margin: 0 0 16px 0;
+	}
 
-.front-cta-header-single h2, .front-cta-header-single .fa {
-	font-size: 24px;
-	font-size: 2.4rem;
-}
+	.front-cta-header-single h2, .front-cta-header-single .fa {
+		font-size: 24px;
+		font-size: 2.4rem;
+	}
 
-.front-cta-content-single {
-	border: 1px solid #e2e5e8;
-}
+	.front-cta-content-single {
+		border: 1px solid #e2e5e8;
+	}
 
-.cta-tel {
-	margin-bottom: 0;
-	padding-bottom: 0;
-	border-bottom: none;
-}
+	.cta-tel {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border-bottom: none;
+	}
 
-.front-cta-mail-btn {
-	width: 80%;
-}
+	.front-cta-mail-btn {
+		width: 80%;
+	}
 
-/* Benefit section */
-.benefit-box-list {
-	float: left;
-	width: 31.4%;
-	margin: 0 2.6% 32px 0;
-}
+	/* Benefit section */
+	.benefit-box-list {
+		float: left;
+		width: 31.4%;
+		margin: 0 2.6% 32px 0;
+	}
 
-.benefit-section-btn {
-	width: 40%;
-}
+	.benefit-section-btn {
+		width: 40%;
+	}
 
-.benefit-box-icon img {
-	width: 350px;
-}
+	.benefit-box-icon img {
+		width: 350px;
+	}
 
-/* Category section */
-.category-box {
-	float: left;
-	width: 31.4%;
-	margin: 0 2.6% 32px 0;
-}
+	/* Category section */
+	.category-box {
+		float: left;
+		width: 31.4%;
+		margin: 0 2.6% 32px 0;
+	}
 
-.category-list li {
-	font-size: 14px;
-	font-size: 1.4rem;
-}
+	.category-list li {
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
 
-.category-btn {
-	width: 80%;
-}
+	.category-btn {
+		width: 80%;
+	}
 
-/* Accordion faq section */
-.accordion-faq-content li {
-	padding: 8px 0 32px 56px;
-}
+	/* Accordion faq section */
+	.accordion-faq-content li {
+		padding: 8px 0 32px 56px;
+	}
 
-/* Contactfrom section */
-.contactfrom-content input[type="text"],
-.contactfrom-content input[type="email"],
-.contactfrom-content input[type="url"],
-.contactfrom-content input[type="number"],
-.contactfrom-content input[type="tel"],
-.contactfrom-content input[type="range"],
-.contactfrom-content input[type="color"],
-.contactfrom-content input[type="time"],
-.contactfrom-content input[type="date"],
-.contactfrom-content input[type="datetime"],
-.contactfrom-content input[type="datetime-local"],
-.contactfrom-content input[type="week"],
-.contactfrom-content input[type="month"],
-.contactfrom-content select,
-.contactfrom-content textarea {
-	width: 70%;
-}
+	/* Contactfrom section */
+	.contactfrom-content input[type="text"],
+	.contactfrom-content input[type="email"],
+	.contactfrom-content input[type="url"],
+	.contactfrom-content input[type="number"],
+	.contactfrom-content input[type="tel"],
+	.contactfrom-content input[type="range"],
+	.contactfrom-content input[type="color"],
+	.contactfrom-content input[type="time"],
+	.contactfrom-content input[type="date"],
+	.contactfrom-content input[type="datetime"],
+	.contactfrom-content input[type="datetime-local"],
+	.contactfrom-content input[type="week"],
+	.contactfrom-content input[type="month"],
+	.contactfrom-content select,
+	.contactfrom-content textarea {
+		width: 70%;
+	}
 
-.contactfrom-content .wpcf7 {
-	margin: 32px;
-	padding: 32px;
-}
+	.contactfrom-content .wpcf7 {
+		margin: 32px;
+		padding: 32px;
+	}
 
-.front-cta-col6 {
-	float: left;
-	margin-left: 2.8%;
-	width: 48.6%;
-}
+	.front-cta-col6 {
+		float: left;
+		margin-left: 2.8%;
+		width: 48.6%;
+	}
 
-.front-cta-first {
-	margin-left: 0;
-}
+	.front-cta-first {
+		margin-left: 0;
+	}
 
-.front-cta-single {
-	width: 752px;
-}
+	.front-cta-single {
+		width: 752px;
+	}
 
 }
 
 @media screen and ( min-width: 992px ) {
-/* Sales section */
-.sales-section-btn {
-	width: 60%;
-}
+	/* Sales section */
+	.sales-section-btn {
+		width: 60%;
+	}
 
-/* Case section */
-.case-section-btn {
-	width: 20%;
-}
+	/* Case section */
+	.case-section-btn {
+		width: 20%;
+	}
 
-/* Benefit section */
-.benefit-section-btn {
-	width: 20%;
-}
+	/* Benefit section */
+	.benefit-section-btn {
+		width: 20%;
+	}
 
-/* Product section */
-.product-section-btn {
-	width: 35%;
-}
+	/* Product section */
+	.product-section-btn {
+		width: 35%;
+	}
 
-/* Price section */
-.price-section-btn {
-	width: 20%;
-}
+	/* Price section */
+	.price-section-btn {
+		width: 20%;
+	}
 
-/* Front CTA section */
-.front-cta-mail-btn {
-	width: 60%;
-}
+	/* Front CTA section */
+	.front-cta-mail-btn {
+		width: 60%;
+	}
 
-/* Info section */
-.info-container {
-	width: 960px;
-}
+	/* Info section */
+	.info-container {
+		width: 960px;
+	}
 
-.info-section-btn {
-	width: 20%;
-}
+	.info-section-btn {
+		width: 20%;
+	}
 
-/* Accordion faq section */
-.accordion-faq-container {
-	width: 960px;
-}
+	/* Accordion faq section */
+	.accordion-faq-container {
+		width: 960px;
+	}
 
-.faq-section-btn {
-	width: 20%;
-}
+	.faq-section-btn {
+		width: 20%;
+	}
 
 }
 
