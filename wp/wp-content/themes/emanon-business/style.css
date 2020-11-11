@@ -15,15 +15,6 @@ Emanon Business用のスタイルを以下に記述
 カスタマイズ機能のCSS圧縮をオンにしている場合、オフに切り替えてからスタイルを追加し、その後、再度CSS圧縮をオンにしてください。
 */
 
-/* costom css */
-body {
-	line-height: 1.7;
-}
-
-.solution-box-list {
-	display: none;
-}
-
 /* coustom css ENd */
 
 .inner {
