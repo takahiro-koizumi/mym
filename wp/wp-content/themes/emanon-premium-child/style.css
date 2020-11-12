@@ -19,4 +19,15 @@ Tags:one-column, two-columns, three-columns, left-sidebar, right-sidebar, theme-
 .link-box__item-description {
   text-align: center;
 }
+
+/* About Us */
+.c-section-widget__title {
+  padding-top: 33px;
+}
+.c-section-widget__sub-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 /* costom css End */
